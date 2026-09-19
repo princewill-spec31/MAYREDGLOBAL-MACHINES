@@ -1,0 +1,16 @@
+@media (max-width: 720px) {
+  .site-header { position: relative; }
+  .nav-links.is-open {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    top: 70px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px;
+    background: var(--cream);
+    border-bottom: 1px solid #d7d6ce;
+  }
+}
